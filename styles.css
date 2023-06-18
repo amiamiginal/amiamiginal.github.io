@@ -1,0 +1,107 @@
+body {
+  background-image: url('background.png');
+  background-repeat: repeat;
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f0f0f0;
+  background-image: url('metallic-texture.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 28px;
+  color: #333333;
+  margin-top: 0;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-links li {
+  margin: 10px;
+}
+
+.social-links a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.social-links a:hover {
+  background-color: #e0e0e0;
+}
+
+.social-links img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.blog-post {
+  margin-top: 30px;
+}
+
+.blog-post h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.blog-post p {
+  font-size: 16px;
+}
+
+.blog-post a {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333333;
+  text-decoration: none;
+  border-bottom: 1px solid #333333;
+  transition: border-bottom 0.3s ease;
+}
+
+.blog-post a:hover {
+  border-bottom: 1px solid transparent;
+}
+
+.comment {
+  margin-bottom: 10px;
+}
+
+.comment .comment-info {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.comment .comment-text {
+  font-size: 16px;
+}
+
+/* Animation class */
+.animate-budge {
+  transform: scale(1.1);
+}
+
+/* Optional: Add hover effect on social media icons */
+.social-links img:hover {
+  transform: scale(1.1);
+}
